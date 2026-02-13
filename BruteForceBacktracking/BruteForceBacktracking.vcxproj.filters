@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PrimeCombination">
+      <UniqueIdentifier>{a4666201-123e-4035-9ef5-30b5bb9a669b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PrimeCombination\input.txt">
+      <Filter>PrimeCombination</Filter>
+    </Text>
+    <Text Include="PrimeCombination\result.txt">
+      <Filter>PrimeCombination</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrimeCombination\main.cpp">
+      <Filter>PrimeCombination</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FindNonCompletionParticipant">
+      <UniqueIdentifier>{824aa817-8977-4740-ad82-6a785c0893be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheckPrefixInPhoneBook">
+      <UniqueIdentifier>{e6480cbf-1647-435b-b464-2783ed78faec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FindNonCompletionParticipant\input.txt">
+      <Filter>FindNonCompletionParticipant</Filter>
+    </Text>
+    <Text Include="CheckPrefixInPhoneBook\input.txt">
+      <Filter>CheckPrefixInPhoneBook</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FindNonCompletionParticipant\main.cpp">
+      <Filter>FindNonCompletionParticipant</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPrefixInPhoneBook\main.cpp">
+      <Filter>CheckPrefixInPhoneBook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
